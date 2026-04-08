@@ -6,7 +6,7 @@ import pickle
 app = Flask(__name__)
 
 # 🔹 Charger le modèle Logistic Regression
-model = pickle.load(open("models/LogisticRegression.pkl", "rb"))
+model = pickle.load(open("LogisticRegression.pkl", "rb"))
 
 @app.route("/")
 def home():
