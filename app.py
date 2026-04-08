@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 
 # Bonjour à tous, ici paris vers londres pour un 14eme essai avec accès docker configurés. Et maintenant modif nom service
+# Wesh tu vas commit!
 app = Flask(__name__)
 model = pickle.load(open("catboost_model-2.pkl", "rb"))
 
